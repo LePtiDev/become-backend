@@ -1,10 +1,9 @@
 module.exports = {
     apps : [{
-        name: 'nameofyourapp',
-        script: 'server.js',
-  
-        // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
-        // args: 'one two',
+        name: 'develop-become-strapi',
+        script: 'npm',
+        args: 'start',
+
         instances: 1,
         autorestart: true,
         watch: false,
